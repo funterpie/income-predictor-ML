@@ -23,7 +23,7 @@ with col1:
     age            = st.slider("Age", 17, 90, 35)
     education      = st.selectbox("Education", list(EDUCATION_MAP.keys()))
     capital_gain   = st.number_input("Capital Gain", 0, 99999, 0)
-    capital_loss   = st.number_input("Capital Loss", 0, 4356, 0)
+    capital_loss   = st.number_input("Capital Loss", 0, 99999, 0)
     hours_per_week = st.slider("Hours per Week", 1, 99, 40)
 
 with col2:
