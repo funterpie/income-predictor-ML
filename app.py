@@ -114,6 +114,6 @@ if btn:
             st.error(f"❌ API Error: {e}")
 
 st.divider()
-st.caption("Made with ❤️ by [Funter Pie](https://github.com/funter-pie) (Muhammad Taha Sattar) | [GitHub](https://github.com/funter-pie)")  
+st.caption("Made with ❤️ by [Funter Pie](https://tahatradz.online) (Muhammad Taha Sattar) | [GitHub](https://github.com/funter-pie)")  
 st.caption("Model trained on UCI Adult Dataset | API built with FastAPI | Frontend built with Streamlit")   
 st.caption("visit tahatradz.online for more fun projects and blogs!")
