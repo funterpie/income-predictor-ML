@@ -23,7 +23,7 @@ This project predicts whether a person's annual income exceeds **$50,000** based
 | Service | URL | Status |
 |---------|-----|--------|
 | 🤗 FastAPI Backend | [HuggingFace Space](https://funterpie-income-predictor-ml.hf.space) | ✅ Live |
-| 🎯 Streamlit Frontend | `[https://income-predictor-ml-funterpie.streamlit.app/]` |✅ Live |
+| 🎯 Streamlit Frontend | (https://income-predictor-ml-funterpie.streamlit.app/) |✅ Live |
 | 📖 API Docs (Swagger) | [/docs](https://funterpie-income-predictor-ml.hf.space/docs) | ✅ Live |
 
 ---
