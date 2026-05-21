@@ -3,8 +3,7 @@ import requests
 
 st.set_page_config(page_title="Income Predictor By Funter Pie AKA Muhammad Taha Sattar", page_icon="💰", layout="centered")
 
-API_URL = "http://localhost:8000/predict"  # local test
-# API_URL = "https://your-app.onrender.com/predict"  # deploy ke baad change karna
+API_URL = "https://funterpie-income-predictor-ml.hf.space/predict"
 
 EDUCATION_MAP = {
     'Preschool': 1, '1st-4th': 2, '5th-6th': 3,
@@ -66,7 +65,7 @@ with col2:
 st.divider()
 btn = st.button("🔍 Predict Income", use_container_width=True)
 
-# ── Result yahan aata hai ──────────────────────────────────────
+# ── Result
 if btn:
     payload = {
         "age"            : age,
@@ -95,13 +94,13 @@ if btn:
             else:
                 st.info(f"📊 Predicted Income: **{result['income']}**")
 
-            # Confidence
+            # Confidence probabilty
             col_a, col_b, col_c = st.columns(3)
             col_a.metric("Confidence",  result["confidence"])
             col_b.metric("Prob >50K",   result["prob_above"])
             col_c.metric("Prob ≤50K",   result["prob_below"])
 
-            # Progress bars
+            # Progress bars gop gop
             st.progress(
                 float(result['prob_above'].replace('%','')) / 100,
                 text=f">50K → {result['prob_above']}"
