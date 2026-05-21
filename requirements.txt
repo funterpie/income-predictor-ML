@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+streamlit
+requests
+scikit-learn==1.6.1
+imbalanced-learn==0.12.4
+pandas
+numpy
+joblib
+matplotlib
+seaborn

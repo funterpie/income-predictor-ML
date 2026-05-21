@@ -1,0 +1,19 @@
+{
+  "num_cols": [
+    "age",
+    "educational-num",
+    "capital-gain",
+    "capital-loss",
+    "hours-per-week"
+  ],
+  "cat_cols": [
+    "workclass",
+    "marital-status",
+    "occupation",
+    "relationship",
+    "race",
+    "gender",
+    "native-country"
+  ],
+  "best_model": "SVC"
+}
